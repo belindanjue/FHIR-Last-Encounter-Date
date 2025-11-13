@@ -1,0 +1,23 @@
+<!-- FHIR Client Library -->
+<script src="https://cdn.jsdelivr.net/npm/fhirclient/build/fhir-client.js"></script>
+
+<h2>FHIR-CRUD App with Encounter Date</h2>
+
+<button onclick="showPatients();">Search Patients</button>
+<button onclick="addPatient();">Add Patient</button>
+
+<hr />
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Actions</th>
+      <th>Last Encounter Date</th>
+    </tr>
+  </thead>
+
+  <tbody id="patientResults"></tbody>
+</table>
